@@ -6,8 +6,7 @@ function HeroSection() {
   return (
     <div className='hero-container'>
         <div className='hero-container-child'><h1>Hello, I'm J Han</h1></div>
-      
-        <div className='hero-container-child'><p>Hello, I'm J Han</p></div>
+        <div className='hero-container-child'><p>I.T Student at Kwantlen Polytechnic University</p></div>
     </div>
   );
 }

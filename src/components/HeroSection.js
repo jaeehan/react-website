@@ -5,8 +5,8 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-        <div className='hero-container-child'><h1>Hello, I'm J Han</h1></div>
-        <div className='hero-container-child'><p>I.T Student at Kwantlen Polytechnic University</p></div>
+        <div className='hero-container'><h1>Hello, I'm J Han</h1> <p>I.T Student at Kwantlen Polytechnic University</p> </div>
+        <div className='hero-container-child'></div>
     </div>
   );
 }

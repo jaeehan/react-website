@@ -38,28 +38,27 @@ function Navbar() {
                 </div>
                 <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                     <li className='nav-item'>
-                        <Link href="https://github.com/jaeehan" className='nav-links' onClick={closeMobileMenu}>
+                        <a href="https://jaeehan.github.io/resume" className='nav-links' onClick={closeMobileMenu}>
                             Resume
-                        </Link>
+                        </a>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/github' className='nav-links' onClick={closeMobileMenu}>
+                        <a href="https://github.com/jaeehan" className='nav-links' onClick={closeMobileMenu}>
                             GitHub
-                        </Link>
+                        </a>
                     </li>
                     <li className='nav-item'>
-                        <Link to='/linkedin' className='nav-links' onClick={closeMobileMenu}>
+                        <a href="https://www.linkedin.com/in/jaeehan/" className='nav-links' onClick={closeMobileMenu}>
                             LinkedIn
-                        </Link>
+                        </a>
                     </li>
                     
                     <li>
-                        <Link to='/Email' className='nav-links-mobile' onClick = {closeMobileMenu}>
+                        <a href="mailto:jaeehan@gmail.com" className='nav-links' onClick={closeMobileMenu}>
                             Email
-                        </Link>
+                        </a>
                     </li>
                 </ul>
-                {button && <Button buttonStyle= 'btn--outline'>Email</Button>}
             </div>
         </nav>
         </>
